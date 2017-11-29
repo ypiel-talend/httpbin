@@ -1,0 +1,5 @@
+# Build the image
+docker build -t httpbin .
+
+# Run the container and make the port accessible on 8000 from outside
+docker run -p 8000:8080 httpbin
